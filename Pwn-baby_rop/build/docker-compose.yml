@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    pwn_baby_rop:
+        build: ./
+        image: pwn_baby_rop
+        container_name: pwn_baby_rop
+        ports:
+            - "8888:8888"
+        restart: unless-stopped
