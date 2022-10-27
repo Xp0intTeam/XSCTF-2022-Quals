@@ -1,0 +1,7 @@
+version: "3"
+services:
+  ikunpop1:
+    build: .
+    restart: always
+    ports:
+      - "8089:80"
