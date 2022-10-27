@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+     build: .
+     restart: always
+     ports:
+       - "10011:80"
+     environment:
+       - FLAG=flag{68ff971077c08515fdbbd83fac40fca1}
+       
