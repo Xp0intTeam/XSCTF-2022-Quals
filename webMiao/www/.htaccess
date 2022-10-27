@@ -1,0 +1,9 @@
+<FilesMatch "\.(phps)$">
+    Order allow,deny
+    Allow from all
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+    Header set Pragma No-cache
+    Header set Cache-Control No-cache
+    Header set Expires 0
+</FilesMatch>
