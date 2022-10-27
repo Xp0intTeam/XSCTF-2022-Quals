@@ -1,0 +1,10 @@
+version: "2"
+services:
+  web:
+    #设置build才能运行dockerfile的内容
+    build: .
+    restart: always
+    volumes:
+      - ./www:/var/www/html
+    ports:
+      - 18080:80

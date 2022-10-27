@@ -1,0 +1,27 @@
+version: '2'
+services:
+    nginx:
+        image: nginx:latest
+        # 端口映射
+        ports:
+            - "2323:80"
+        # 依赖关系 先跑php
+        depends_on:
+            - "php"
+        # 数据卷
+        volumes:
+            - "$PWD/conf.d:/etc/nginx/conf.d"
+            - "$PWD/www:/usr/share/nginx/html"
+            - "$PWD/flag:/flag"
+        # 容器名称
+        container_name: "compose-nginx2"
+    php:
+        build: ./
+        # image指定build Dockerfile生成镜像的名称
+        image: php:7.2-fpm
+        ports:
+            - "1888:9000"
+        volumes:
+            - "$PWD/www:/var/www/html"
+            - "$PWD/flag:/flag"
+        container_name: "compose-php2"

@@ -1,0 +1,4 @@
+FROM php:5.4-apache
+
+ADD  flag / 
+COPY  /www /var/www/html
