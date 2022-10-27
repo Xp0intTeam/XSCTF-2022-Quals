@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    pwn_signin:
+        build: ./
+        image: pwn_signin
+        container_name: pwn_signin
+        ports:
+            - "8888:8888"
+        restart: unless-stopped
