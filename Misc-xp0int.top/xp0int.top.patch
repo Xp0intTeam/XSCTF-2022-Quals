@@ -1,0 +1,88 @@
+From 2058218cc73539a6e556367b599fb541cc7f2b9f Mon Sep 17 00:00:00 2001
+From: xf1les <xf1les@xf1les.net>
+Date: Sat, 22 Oct 2022 00:12:22 +0800
+Subject: [PATCH] Prepare for CTF challenge xp0int.top
+
+---
+ 656d0bde9ddd98630f22d0790b023ff4.html |  6 ++
+ _config.yml                           |  4 ++
+ _headers                              |  3 +
+ assets/prod.js                        |  1 +
+ awards.html                           |  2 +-
+ index.markdown                        |  2 +-
+ 6 files changed, 16 insertions(+), 2 deletions(-)
+ create mode 100644 656d0bde9ddd98630f22d0790b023ff4.html
+ create mode 100644 assets/prod.js
+
+diff --git a/656d0bde9ddd98630f22d0790b023ff4.html b/656d0bde9ddd98630f22d0790b023ff4.html
+new file mode 100644
+index 0000000..9e26023
+--- /dev/null
++++ b/656d0bde9ddd98630f22d0790b023ff4.html
+@@ -0,0 +1,6 @@
++---
++layout: single
++permalink: /c47c3f0313e156d33634e933d3615ac3/f47f38136e872891a0e33f33751fb13b/eb723c8934635b88dd4cf041a467c343/31bcfecc7dd372712fb8ce9c98b31b3c/656d0bde9ddd98630f22d0790b023ff4
++---
++
++<center><h1>4:47c34cec</h1></center>
+\ No newline at end of file
+diff --git a/_config.yml b/_config.yml
+index 6048ea4..d305353 100644
+--- a/_config.yml
++++ b/_config.yml
+@@ -389,3 +389,7 @@ xp0int_awards:
+         prize: "一等奖"
+       - name: "第三届上海市大学生网络安全大赛"
+         prize: "二等奖"
++
++footer_scripts:
++  - "/assets/prod.js"
++  - "/assets/js/main.min.js"
+diff --git a/_headers b/_headers
+index 2b453c2..1dadf7b 100644
+--- a/_headers
++++ b/_headers
+@@ -6,5 +6,8 @@
+ /assets/*
+   X-Robots-Tag: nosnippet
+ 
++/c47c3f0313e156d33634e933d3615ac3/f47f38136e872891a0e33f33751fb13b/eb723c8934635b88dd4cf041a467c343/31bcfecc7dd372712fb8ce9c98b31b3c/656d0bde9ddd98630f22d0790b023ff4
++  X-Robots-Tag: noindex
++
+ https://:project.pages.dev/*
+   X-Robots-Tag: noindex
+diff --git a/assets/prod.js b/assets/prod.js
+new file mode 100644
+index 0000000..24ec75b
+--- /dev/null
++++ b/assets/prod.js
+@@ -0,0 +1 @@
++var _0xoda='jsjiami.com.v6',_0xoda_=['‮_0xoda'],_0xcaa7=[_0xoda,'wq0cw5IOGcKEO0p3wro=','w6LDvw3CpQ==','wrBhX8Ofw5wuwonCmEs=','FDRqw5jDjw==','w4nCnlPDlD1qTU4Lwq3Dpn7Dk8O6GCYCXkdvw5TDog==','JB8nWRUBcsKtAEgiwrrCgA==','NMKTw4XCs8KqYcOWwrIpJA==','UMKLw4N7w60=','jsQJFNBLTYjuiyIdami.com.v6=='];if(function(_0x1514be,_0x21132c,_0xcd33ac){function _0x546dd0(_0x5a9d43,_0x2972c8,_0x888850,_0x24a18c,_0x26a4da,_0x5c1a9d){_0x2972c8=_0x2972c8>>0x8,_0x26a4da='po';var _0x400d5c='shift',_0x593a46='push',_0x5c1a9d='‮';if(_0x2972c8<_0x5a9d43){while(--_0x5a9d43){_0x24a18c=_0x1514be[_0x400d5c]();if(_0x2972c8===_0x5a9d43&&_0x5c1a9d==='‮'&&_0x5c1a9d['length']===0x1){_0x2972c8=_0x24a18c,_0x888850=_0x1514be[_0x26a4da+'p']();}else if(_0x2972c8&&_0x888850['replace'](/[QJFNBLTYuyId=]/g,'')===_0x2972c8){_0x1514be[_0x593a46](_0x24a18c);}}_0x1514be[_0x593a46](_0x1514be[_0x400d5c]());}return 0x10be31;};return _0x546dd0(++_0x21132c,_0xcd33ac)>>_0x21132c^_0xcd33ac;}(_0xcaa7,0xf6,0xf600),_0xcaa7){_0xoda_=_0xcaa7['length']^0xf6;};function _0x4770(_0x24fb84,_0xbdfe5c){_0x24fb84=~~'0x'['concat'](_0x24fb84['slice'](0x1));var _0x196a29=_0xcaa7[_0x24fb84];if(_0x4770['OXHfuU']===undefined){(function(){var _0x348745=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x14b21b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x348745['atob']||(_0x348745['atob']=function(_0x402be2){var _0x9ea50e=String(_0x402be2)['replace'](/=+$/,'');for(var _0x208fe0=0x0,_0x111086,_0x14cfb7,_0xa88303=0x0,_0x5244ef='';_0x14cfb7=_0x9ea50e['charAt'](_0xa88303++);~_0x14cfb7&&(_0x111086=_0x208fe0%0x4?_0x111086*0x40+_0x14cfb7:_0x14cfb7,_0x208fe0++%0x4)?_0x5244ef+=String['fromCharCode'](0xff&_0x111086>>(-0x2*_0x208fe0&0x6)):0x0){_0x14cfb7=_0x14b21b['indexOf'](_0x14cfb7);}return _0x5244ef;});}());function _0x11bf78(_0x317e6b,_0xbdfe5c){var _0x65fd13=[],_0x166f53=0x0,_0x56355e,_0x17588d='',_0x3196ad='';_0x317e6b=atob(_0x317e6b);for(var _0x553757=0x0,_0x39ba78=_0x317e6b['length'];_0x553757<_0x39ba78;_0x553757++){_0x3196ad+='%'+('00'+_0x317e6b['charCodeAt'](_0x553757)['toString'](0x10))['slice'](-0x2);}_0x317e6b=decodeURIComponent(_0x3196ad);for(var _0x43dcd7=0x0;_0x43dcd7<0x100;_0x43dcd7++){_0x65fd13[_0x43dcd7]=_0x43dcd7;}for(_0x43dcd7=0x0;_0x43dcd7<0x100;_0x43dcd7++){_0x166f53=(_0x166f53+_0x65fd13[_0x43dcd7]+_0xbdfe5c['charCodeAt'](_0x43dcd7%_0xbdfe5c['length']))%0x100;_0x56355e=_0x65fd13[_0x43dcd7];_0x65fd13[_0x43dcd7]=_0x65fd13[_0x166f53];_0x65fd13[_0x166f53]=_0x56355e;}_0x43dcd7=0x0;_0x166f53=0x0;for(var _0x4f3131=0x0;_0x4f3131<_0x317e6b['length'];_0x4f3131++){_0x43dcd7=(_0x43dcd7+0x1)%0x100;_0x166f53=(_0x166f53+_0x65fd13[_0x43dcd7])%0x100;_0x56355e=_0x65fd13[_0x43dcd7];_0x65fd13[_0x43dcd7]=_0x65fd13[_0x166f53];_0x65fd13[_0x166f53]=_0x56355e;_0x17588d+=String['fromCharCode'](_0x317e6b['charCodeAt'](_0x4f3131)^_0x65fd13[(_0x65fd13[_0x43dcd7]+_0x65fd13[_0x166f53])%0x100]);}return _0x17588d;}_0x4770['gOnrrU']=_0x11bf78;_0x4770['yuUjpo']={};_0x4770['OXHfuU']=!![];}var _0x56490b=_0x4770['yuUjpo'][_0x24fb84];if(_0x56490b===undefined){if(_0x4770['ZPNOWQ']===undefined){_0x4770['ZPNOWQ']=!![];}_0x196a29=_0x4770['gOnrrU'](_0x196a29,_0xbdfe5c);_0x4770['yuUjpo'][_0x24fb84]=_0x196a29;}else{_0x196a29=_0x56490b;}return _0x196a29;};var logo_cnt=0x0;function click_check(){var _0x235c22={'KBYqI':function(_0x4cad9d,_0x150c7e){return _0x4cad9d==_0x150c7e;},'OzfFX':_0x4770('‫0','KYDy')};logo_cnt++;if(_0x235c22[_0x4770('‮1','j)[2')](logo_cnt,0x3)){alert(_0x235c22['OzfFX']);}}function to_func(_0x4fabcc){var _0x451a55={'DkWgR':_0x4770('‫2','[9iw')};_0x4fabcc['getElementsByTagName'](_0x4770('‮3','fp29'))[0x0][_0x4770('‮4','shYF')]=_0x451a55[_0x4770('‫5','n5DG')];}obj=document[_0x4770('‮6','Wy#s')]('xp0int_logo')[0x0];if(obj){obj['onclick']=click_check;}else{obj=document['getElementsByClassName'](_0x4770('‮7','@V1m'))[0x0];if(obj){setTimeout(to_func,0x42a68,obj);}};_0xoda='jsjiami.com.v6';
+\ No newline at end of file
+diff --git a/awards.html b/awards.html
+index 166a0a7..94d847d 100644
+--- a/awards.html
++++ b/awards.html
+@@ -3,7 +3,7 @@
+ title: Awards
+ ---
+ 
+-<div><a href="/assets/awards.jpg"><img src="/assets/awards-small.jpg" class="align-right" /></a></div>
++<div><a href="https://s2.loli.net/2022/10/21/ie4ZxgUaJ9ROsSQ.jpg"><img src="/assets/awards-small.jpg" class="align-right" /></a></div>
+ 
+ {% for awards in paginator.xp0int_awards %}
+ <div class="list__item">
+diff --git a/index.markdown b/index.markdown
+index 2e2f5e2..497c83b 100644
+--- a/index.markdown
++++ b/index.markdown
+@@ -16,7 +16,7 @@ gallery:
+ 
+ # <i class="fas fa-fw fa-info" aria-hidden="true" />介绍
+ 
+-<img src="/assets/logo-index.png" class="align-left" /> 
++<img src="/assets/logo-index.png" class="align-left xp0int_logo" /> 
+ 
+ **Xp0int**  是<a href="https://zh.wikipedia.org/wiki/%E6%9A%A8%E5%8D%97%E5%A4%A7%E5%AD%A6" target="_blank">暨南大学</a>网络空间安全兴趣协会所属的 CTF 战队。
+ 成立于 2013 年，由网络空间安全、信息安全、软件工程以及其他计算机相关专业学生组成，开展网络安全实战技术学习，代表学校参加国内外各类网络安全比赛。

@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    misc_echo_server:
+        build: ./
+        image: misc_echo_server
+        container_name: misc_echo_server
+        ports:
+            - "8888:8888"
+        restart: unless-stopped
