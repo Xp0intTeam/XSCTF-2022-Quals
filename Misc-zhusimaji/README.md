@@ -25,4 +25,5 @@
 
 * **flag：**  flag{qszg6065qhwzszrcgy186501JqhpGex5dflJ75vuWtJBlA}
 
-* **Writeup：**  有空再写
+* **Writeup：**  当时给的是百度网盘链接，有效期只有30天，链接：https://pan.baidu.com/s/1JqhpGex5dflJ75vuWtJBlA 提取码：ikun \
+                 现在图片都放在player中
